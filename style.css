@@ -11,3 +11,15 @@
     width: 35%;
     margin-left: 33%;
 }
+
+.btn {
+    cursor: pointer;
+    border: none;
+    color: #0000f5;
+    background-color: #fff;
+}
+
+.form-control {
+    width: 20vw;
+    height: 5vh;
+}

@@ -7,12 +7,10 @@ window.onload = function() {
     eyeBtn.onclick = function() {
         if(input.type === 'password') {
             input.type = 'text';
-            eye.classList.remove('fa-eye');
-            eye.classList.add('fa-eye-slash');
+            eyeBtn.innerText = 'Hide password';
         } else {
             input.type = 'password';
-            eye.classList.add('fa-eye');
-            eye.classList.remove('fa-eye-slash');
+            eyeBtn.innerText = 'Show password';
         }
     }
 }
